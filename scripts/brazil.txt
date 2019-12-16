@@ -1,0 +1,9 @@
+image 251 376
+clear 0 255 0
+color 255 255 0
+polygon 4 50 125 188 40 325 125 188 210
+fill 188 125
+color 0 0 255
+disk 188 125 50
+save brazil.ppm
+end

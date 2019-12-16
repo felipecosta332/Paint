@@ -1,0 +1,1 @@
+gcc -o main main.c fileio.c draw.c vector.c text.c -lm

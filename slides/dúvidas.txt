@@ -1,0 +1,4 @@
+erro de execução em stretchMatrix? (realloc)
+como referenciar cabeçalhos em pastas diferentes?
+a função stretchMatrix não funciona com arquivos externos?
+só funciona com imagens inicializadas dentro do programa?

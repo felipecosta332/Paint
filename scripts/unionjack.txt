@@ -1,0 +1,22 @@
+image 1000 2000 255
+clear 0 0 255
+color 255 255 255
+thickness 120
+line 0 0 1999 999
+line 0 999 1999 0
+thickness 45
+color 255 0 0
+line 0 40 1000 540
+line 1999 -40 1000 460
+line 1999 959 1000 460
+line 0 1039 1000 540
+thickness 170
+color 255 255 255
+line 0 500 1999 500
+line 1000 0 1000 999
+thickness 120
+color 255 0 0
+line 0 500 1999 500
+line 1000 0 1000 999 
+save unionjack.ppm
+end

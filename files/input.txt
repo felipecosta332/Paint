@@ -1,0 +1,12 @@
+terminal
+end
+
+image : Cria uma nova “imagem”, com a largura e altura especificadas na primitiva
+color: Muda a cor atual para uma cor especificada
+clear: Limpa a imagem, setando todos os pixels para a cor especificada
+rect: Desenha um retângulo nas posições x, y, e com tamanho especificados
+circle: Desenha um círculo nas posições x, y e tamanho especificados
+polygon: Desenha um polígono delimitado por uma lista de pontos
+fill: Pinta todo o polígono a partir do ponto especificado. Caso o ponto não esteja em algum polígono, o comando deve preencher toda a tela até encontrar bordas de algum polígono ou as bordas da imagem (balde de tinta).
+save: Salva a imagem atual em um arquivo usando o formato ppm
+open: Carrega uma imagem ppm no programa para futuras operações de desenho
