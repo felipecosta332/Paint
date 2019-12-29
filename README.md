@@ -26,15 +26,16 @@ To run the program, follow the steps:
 # Commands and Parameters
 
 The full list of the program commands, what they do, what parameters they take and a few examples are as follow:
-- circle: Draws a circle in the image. The center coordinates and the radius are parameters.
+- circle: Draws a circle in the image. It takes the center coordinates and the radius as parameters.
     - example: "circle 150 100 10" (draws a circle with radius 10 and center at abscissa 150 and ordinate 100)
-- clear: Paints the entire image with the selected color. Takes no parameters.
+- clear: Paints the entire image with the selected color. It takes no parameters.
     - example: "clear"
-- color: Sets the selected color for further painting commands. Takes the color components red, green and blue as parameters.
+- color: Sets the selected color for further painting commands. It takes the color components red, green and blue as parameters.
     - example: "color 255 255 255" (sets the color to white)
-- disk: Draws a disk in the image. The center coordinates and the radius are parameters.
+- disk: Draws a disk in the image. It takes the center coordinates and the radius as parameters.
     - example: "disk 150 100 10" (draws a disk with radius 10 and center at abscissa 150 and ordinate 100)
-- ellipse: Draws an ellipse in the image. 
+- ellipse: Draws an ellipse in the image. It takes the axis orientation, the center coordinates, the bigger semi-axis and the smaller semi-axis as parameters.
+    - example: "" ()
 - end:
 - fill:
 - function:

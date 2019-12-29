@@ -453,7 +453,7 @@ void drawParabola(PPMfile *image, Pixel color, int thickness, char axis, Point v
 void drawEllipse(PPMfile *image, Pixel color, int thickness, char axis, Point center, float a, float b) {
     int abscissa, upperAbscissa, lowerAbscissa, ordinate, upperOrdinate, lowerOrdinate, delta, i;
     int auxAbscissa, auxUpperAbscissa, auxLowerAbscissa, auxOrdinate, auxUpperOrdinate, auxLowerOrdinate;
-    if (a > b && a > 0 && b > 0) {
+    if (a >= b && a > 0 && b > 0) {
         if (axis == 'x') {
             i = 0;
             for (abscissa = (center.abscissa - a); abscissa <= (center.abscissa + a); abscissa++) {
