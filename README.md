@@ -35,7 +35,7 @@ The full list of the program commands, what they do, what parameters they take a
 - disk: Draws a disk in the image. It takes the center coordinates and the radius as parameters.
     - example: "disk 150 100 10" (draws a disk with radius 10 and center at abscissa 150 and ordinate 100)
 - ellipse: Draws an ellipse in the image. It takes the axis orientation, the center coordinates, the bigger semi-axis and the smaller semi-axis as parameters.
-    - example: "" ()
+    - example: "ellipse " ()
 - end:
 - fill:
 - function:
